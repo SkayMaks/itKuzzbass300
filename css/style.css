@@ -1,0 +1,413 @@
+/*{
+    outline: 1px solid orange;  
+}*/
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    background: #011D35;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.graficlogo{
+    max-width: 1050px;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-content:   space-between; 
+    
+}
+.block{
+    height: 600px;
+}
+.left{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    margin-left: 10px;
+    width: 400px;
+    border: 3px solid rgba(94, 123, 224, 0.35); 
+    border-radius: 30px;
+     background-image: url(../img/kemerovskaya_oblast.jpg)
+}
+.gerb-description{
+    display: flex;
+    justify-content: center;
+}
+.gerb{
+    display: flex;
+    height: 200px;
+    width: 120px;
+}
+.description{
+    display: flex;
+    align-items: center;
+    font-size: 1.6vw;
+}
+
+
+.title{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    width: 90%;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-img{
+  display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer-img img{
+    width: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
+.footer-hr{
+    width: 90%;
+}
+/*=================*/
+p{
+    text-align: left;
+    padding: 5px;
+}
+/*================*/
+
+.yy{
+    margin-left: 140px;
+    margin-top: 75px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    border-radius: 55px;
+    background-color: firebrick;
+}
+.mar{
+    width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    border-radius: 60px;
+    background-color: firebrick;
+    margin-left: 247px;
+    margin-top: -9px;
+}
+.as{
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    border-radius: 60px;
+    background-color: firebrick;
+    margin-left: 120px;
+    margin-top: 1px;
+}
+.ysh{
+    width: 10px;
+    height: 10px;
+    border-radius: 60px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 69px;
+    margin-top: 20px;
+}
+.yrg{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 140px;
+    margin-top: 3px;
+}
+.bar{
+    border-radius: 50px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 299px;
+    margin-top: -14px;
+}
+.tis{
+    border-radius: 60px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 20px;
+    margin-top: -6px;
+}
+.berez{
+    border-radius: 50px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 128px;
+    margin-top: 2px;
+}
+.kem{
+    width: 15px;
+    height: 15px;
+    border-radius: 60px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 116px;
+    margin-top: 25px;
+}
+.top{
+    border-radius: 60px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 79px;
+    margin-top: -5px;
+}
+.centr{
+    border-radius: 60px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 245px;
+    margin-top: 0px;
+}
+.prom{
+    border-radius: 60px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 78px;
+    margin-top: 28px;
+}
+.lk{
+    border-radius: 50px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 131px;
+    margin-top: 22px;
+}
+.bel{
+    border-radius: 50px;
+     width: 11px;
+    height: 11px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 134px;
+    margin-top: 23px;
+}
+.insk{
+    border-radius: 60px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 151px;
+    margin-top: -7px;
+}
+.gur{
+    border-radius: 60px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 109px;
+    margin-top: 0px;
+}
+.kus{
+    border-radius: 60px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 164px;
+    margin-top: 25px;
+}
+.pro{
+    border-radius: 60px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 170px;
+    margin-top: 8px;
+}
+.meg{
+    border-radius: 60px;
+     width: 7px;
+    height: 7px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 287px;
+    margin-top: 6px;
+}
+.nk{
+    border-radius: 60px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 207px;
+    margin-top: -6px;
+}
+.os{
+    border-radius: 60px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 217px;
+    margin-top: 5px;
+}
+.tash{
+    border-radius: 60px;
+     width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    background-color: firebrick;
+    margin-left: 255px;
+    margin-top: 100px;
+}
+.tooltip {
+   
+    position: relative;
+    border-bottom: px dotted black;
+}
+.tooltip .tooltiptext {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    visibility: hidden;
+    width: 220px;
+    background-color: white;
+     opacity: 0.93;
+    border:1px solid black;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/*=================*/
+.wrap {
+	height: 150px;
+	margin: 10px auto 0;
+	width: 219px;
+}
+.wrap > input {
+	display: none;
+}
+.slider {
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+}
+.slides {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	transform: rotate(55deg);
+	-webkit-filter: hue-rotate(90deg);
+	transition: 1s;
+}
+.img1 { background-image: url(../img/lkd1.jpg); background-size:cover; }
+.img2 { background-image: url(../img/lkd2.jpg); background-size: cover;}
+.img3 { background-image: url(../img/lkd3.jpg);background-size: cover; }
+.img4 { background-image: url(../img/Kem/k3.jpg); background-size:cover; }
+.img5 { background-image: url(../img/Kem/k2.jpg); background-size: cover;}
+.img6 { background-image: url(../img/Kem/k1.jpg);background-size: cover; }
+
+.wrap .control {
+	position: absolute;
+	margin-left: -50px;
+	left: 50%;
+}
+.wrap label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 10px;
+	position: relative;
+	width: 8px;
+	border-radius: 20%;
+}
+.wrap label:after {
+	border: 2px solid blue;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	border-radius: 20%;
+}
+
+#point1:checked ~ .control label:nth-of-type(1),
+#point2:checked ~ .control label:nth-of-type(2),
+#point3:checked ~ .control label:nth-of-type(3) {
+	background: blue;
+}
+#point1:checked ~ .slider > .img1,
+#point2:checked ~ .slider > .img2,
+#point3:checked ~ .slider > .img3,
+#point1:checked ~ .slider > .img4,
+#point2:checked ~ .slider > .img5,
+#point3:checked ~ .slider > .img6
+{
+	opacity: 1;
+	z-index: 1;
+	transform: none;
+	-webkit-filter: none;
+}
